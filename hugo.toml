@@ -1,6 +1,6 @@
 baseURL = "https://topaz.com/"
 languageCode = "zh-cn"
-title = "Cordney Nash's Portfolio"
+title = "Topaz Cliff's Portfolio"
 #theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
