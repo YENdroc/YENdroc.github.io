@@ -1,0 +1,37 @@
+baseURL = "https://topaz.com/"
+languageCode = "zh-cn"
+title = "Cordney Nash's Portfolio"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Topaz Cliff"
+  description = "\"skidibi toilet rizz\" - S.T.E.V.E.N at some point "
+  #github = "MeiK2333"
+  #facebook = "MeiK2333"
+  #twitter = "MeiK2333"
+  #linkedin = "MeiK2333"
+  #instagram = "MeiK2333"
+  #tumblr = "MeiK2333"
+  #email = "meik2333@gmail.com"
+  #url = "https://meik2333.com"
+  keywords = "blog, google analytics"
+  # rss = true
+  lastmod = true
+  favicon = "/images/github-mark.png"
+  avatar = "/images/avatar.jpeg"
+  headerIcon = "/images/github-mark-white.png"
+  location = "The Yggdrasil Space Explorer"
+  #userStatusEmoji = "😀"
+ # enableGitalk = true
+  enableSearch = false
+
+
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-123456-789"
