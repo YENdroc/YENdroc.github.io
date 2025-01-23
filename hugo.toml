@@ -1,12 +1,12 @@
 baseURL = "https://topaz.com/"
 languageCode = "zh-cn"
-title = "Topaz Cliff's Portfolio"
+title = "Navi Nowu's Portfolio"
 #theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  author = "Topaz Cliff"
+  author = "Navi Nowu"
   description = "\"skidibi toilet rizz\" - S.T.E.V.E.N at some point "
   #github = "MeiK2333"
   #facebook = "MeiK2333"
