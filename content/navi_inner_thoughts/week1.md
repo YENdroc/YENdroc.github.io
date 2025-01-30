@@ -1,6 +1,6 @@
 +++
 title = "Week 1 in SoPHL"
-date = 2024-11-11T21:23:20-05:00
+date = 2025-01-11T21:23:20-05:00
 author = ""
 keywords = ["", ""]
 cover = ""
