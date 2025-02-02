@@ -6,12 +6,19 @@
     <description>Recent content in Navi_inner_thoughts on Navi Nowu&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Jan 2025 23:08:56 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 11:21:20 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/navi_inner_thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 2 in SoPHL: Life in YGG</title>
+      <link>http://localhost:1313/navi_inner_thoughts/week2/</link>
+      <pubDate>Fri, 31 Jan 2025 12:10:20 -0500</pubDate>
+      <guid>http://localhost:1313/navi_inner_thoughts/week2/</guid>
+      <description>Week 2 Reflection</description>
+    </item>
     <item>
       <title>Week 1 in SoPHL</title>
       <link>http://localhost:1313/navi_inner_thoughts/week1/</link>
-      <pubDate>Mon, 11 Nov 2024 21:23:20 -0500</pubDate>
+      <pubDate>Wed, 29 Jan 2025 21:10:20 -0500</pubDate>
       <guid>http://localhost:1313/navi_inner_thoughts/week1/</guid>
       <description>Week 1 Reflection</description>
     </item>
