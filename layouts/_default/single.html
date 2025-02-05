@@ -5,12 +5,11 @@
 </div>
 
 
+
 <form name="comment-form" method="POST" data-netlify="true" id="commentForm">
+  <input type="hidden" name="form-name" value="comment-form">
   <p>
       <label>Name: <input type="text" name="name" required></label>
-  </p>
-  <p>
-      <label>Email: <input type="email" name="email" required></label>
   </p>
   <p>
       <label>Comment: <textarea name="comment" required></textarea></label>
@@ -47,5 +46,5 @@
       }
   });
   </script>
-  
+
 {{ end }}
