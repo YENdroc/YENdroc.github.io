@@ -32,17 +32,21 @@
           let response = await fetch("/.netlify/functions/fetch-comments");
           let comments = await response.json();
   
-          if (comments.length === 0) {
+          if (!comments || comments.length === 0) {
               commentsContainer.innerHTML = "<p>No comments yet.</p>";
               return;
           }
   
           commentsContainer.innerHTML = comments
-              .map(comment => `<p><strong>${comment.data.name}:</strong> ${comment.data.comment}</p>`)
+              .map(comment => `
+                  <div class="comment">
+                      <p><strong>${comment.name}:</strong> ${comment.comment}</p>
+                  </div>
+              `)
               .join("");
       } catch (error) {
           commentsContainer.innerHTML = "<p>Error loading comments.</p>";
-          console.error(error);
+          console.error("Error fetching comments:", error);
       }
   });
   </script>
