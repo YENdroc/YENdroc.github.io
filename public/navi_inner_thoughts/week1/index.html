@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=45285&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script type="application/javascript" src='http://localhost:1313/js/theme-mode.js'></script>
-    <link rel="stylesheet" href='http://localhost:1313/css/frameworks.min.css' />
-    <link rel="stylesheet" href='http://localhost:1313/css/github.min.css' />
-    <link rel="stylesheet" href='http://localhost:1313/css/github-style.css' />
-    <link rel="stylesheet" href='http://localhost:1313/css/light.css' />
-    <link rel="stylesheet" href='http://localhost:1313/css/dark.css' />
-    <link rel="stylesheet" href='http://localhost:1313/css/syntax.css' />
+    <script type="application/javascript" src='http://localhost:45285/js/theme-mode.js'></script>
+    <link rel="stylesheet" href='http://localhost:45285/css/frameworks.min.css' />
+    <link rel="stylesheet" href='http://localhost:45285/css/github.min.css' />
+    <link rel="stylesheet" href='http://localhost:45285/css/github-style.css' />
+    <link rel="stylesheet" href='http://localhost:45285/css/light.css' />
+    <link rel="stylesheet" href='http://localhost:45285/css/dark.css' />
+    <link rel="stylesheet" href='http://localhost:45285/css/syntax.css' />
     <title>Week 1 in SoPHL - Navi Nowu&#39;s Portfolio</title>
     
     <link rel="icon" type="image/x-icon" href='images/avatar.jpeg'>
@@ -25,7 +25,7 @@
 <meta name="keywords"
   content=', ' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="http://localhost:1313/navi_inner_thoughts/week1/" />
+<link rel="canonical" href="http://localhost:45285/navi_inner_thoughts/week1/" />
 
 
 
@@ -64,7 +64,7 @@
     </div>
 
     <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
-      <a class="Header-link " href="http://localhost:1313/">
+      <a class="Header-link " href="http://localhost:45285/">
         <img class="octicon octicon-mark-github v-align-middle" height="32" width="32" src="">
       </a>
     </div>
@@ -94,7 +94,7 @@
           <div class="flex-auto min-width-0 width-fit mr-3">
             <div class="d-flex">
               <div class="d-none d-md-block">
-                <a class="avatar mr-2 flex-shrink-0" href="http://localhost:1313/">
+                <a class="avatar mr-2 flex-shrink-0" href="http://localhost:45285/">
                   <img class=" avatar-user"
                     src="images/avatar.jpeg"
                     width="32" height="32"></a>
@@ -102,11 +102,11 @@
               <div class="d-flex flex-column">
                 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
                   <span class="author">
-                    <a href="http://localhost:1313/">Navi Nowu</a>
+                    <a href="http://localhost:45285/">Navi Nowu</a>
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="http://localhost:1313/navi_inner_thoughts/week1/">Week 1 in SoPHL</a>
+                    <a href="http://localhost:45285/navi_inner_thoughts/week1/">Week 1 in SoPHL</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
@@ -190,97 +190,16 @@
     </div>
   </main>
 </div>
-<script type="application/javascript" src='http://localhost:1313/js/toc.js'></script>
-<link rel="stylesheet" href='http://localhost:1313/css/toc.css' />
+<script type="application/javascript" src='http://localhost:45285/js/toc.js'></script>
+<link rel="stylesheet" href='http://localhost:45285/css/toc.css' />
 
-<div id="comment-section">
-    <h3>Leave a Comment</h3>
-    <form id="comment-form">
-        <input type="text" id="username" placeholder="Your Name" required>
-        <textarea id="comment" placeholder="Your Comment" required></textarea>
-        <button type="submit">Post Comment</button>
-    </form>
-    <div id="comments-container"></div>
-</div>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        loadComments();
-    });
-    
-    document.getElementById("comment-form").addEventListener("submit", function(event) {
-        event.preventDefault();
-        
-        let username = document.getElementById("username").value.trim();
-        let comment = document.getElementById("comment").value.trim();
-        
-        if (username === "" || comment === "") return;
-        
-        let commentData = { name: username, text: comment };
-        saveComment(commentData);
-        appendComment(commentData);
-        
-        document.getElementById("comment-form").reset();
-    });
-
-    function saveComment(comment) {
-        let comments = JSON.parse(localStorage.getItem("comments")) || [];
-        comments.push(comment);
-        localStorage.setItem("comments", JSON.stringify(comments));
-    }
-
-    function loadComments() {
-        let comments = JSON.parse(localStorage.getItem("comments")) || [];
-        comments.forEach(appendComment);
-    }
-
-    function appendComment(comment) {
-        let commentContainer = document.getElementById("comments-container");
-        let commentElement = document.createElement("div");
-        commentElement.innerHTML = `<strong>${comment.name}</strong>: ${comment.text}`;
-        commentContainer.appendChild(commentElement);
-    }
-</script>
-
-<style>
-    #comment-section {
-        width: 100%;
-        max-width: 500px;
-        margin: 20px auto;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-    #comment-form input, #comment-form textarea {
-        width: 100%;
-        padding: 8px;
-        margin: 5px 0;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-    #comment-form button {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        background: #007bff;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    #comments-container div {
-        margin-top: 10px;
-        padding: 5px;
-        border-bottom: 1px solid #eee;
-    }
-</style>
   
 </div>
 
   <div class="footer container-xl width-full p-responsive">
   <div
     class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="http://localhost:1313/">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="http://localhost:45285/">
       
     </a>
     <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
@@ -299,7 +218,7 @@
 
 </body>
 
-<script type="application/javascript" src="http://localhost:1313/js/github-style.js"></script>
+<script type="application/javascript" src="http://localhost:45285/js/github-style.js"></script>
 
 
 
