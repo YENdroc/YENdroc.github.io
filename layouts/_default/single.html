@@ -32,7 +32,8 @@
           let response = await fetch("/.netlify/functions/fetch-comments");
           let comments = await response.json();
   
-          if (!comments || comments.length === 0) {
+          // Ensure we have an array
+          if (!Array.isArray(comments) || comments.length === 0) {
               commentsContainer.innerHTML = "<p>No comments yet.</p>";
               return;
           }
