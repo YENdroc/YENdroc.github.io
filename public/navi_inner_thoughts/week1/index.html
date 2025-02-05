@@ -206,7 +206,7 @@
 
 
   
-<script>
+`<script>
   window.CUSDIS = {};
 
 const makeIframeContent = (target) => {
@@ -214,26 +214,26 @@ const makeIframeContent = (target) => {
   const iframeJsPath = target.dataset.iframe || `${host}/js/iframe.umd.js`;
   const cssPath = `${host}/js/style.css`;
 
-  return <!DOCTYPE html>
+  return `<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="${cssPath}">
     <base target="_parent" />
-    <script>
+    \x3Cscript>
       window.CUSDIS_LOCALE = ${JSON.stringify(window.CUSDIS_LOCALE)};
       window.__DATA__ = ${JSON.stringify(target.dataset)};
     <\/script>
     <style>
-       
+      /* 📌 GitHub-like styling for the comments */
       body {
         font-family: Arial, sans-serif;
-        
-        color: #24292f;  
+        // background-color: #f6f8fa; /* GitHub comment background */
+        color: #24292f; /* GitHub text color */
       }
 
-       
+      /* 📌 Container for the comments */
       #root {
-        width: 80%;  
+        width: 80%; /* Adjust width to resemble GitHub */
         max-width: 800px;
         margin: auto;
         background-color: #ffffff;
@@ -243,7 +243,7 @@ const makeIframeContent = (target) => {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
       }
 
-       
+      /* 📌 Make sure input fields look like GitHub */
       textarea {
         width: 100%;
         padding: 10px;
@@ -254,7 +254,7 @@ const makeIframeContent = (target) => {
         color: #24292f;
       }
 
-       
+      /* 📌 GitHub-like buttons */
       button {
         background-color: #2ea44f;
         color: white;
@@ -269,7 +269,7 @@ const makeIframeContent = (target) => {
         background-color: #22863a;
       }
 
-       
+      /* 📌 Support Dark Mode */
       @media (prefers-color-scheme: dark) {
         body {
           background-color: #0d1117;
@@ -294,7 +294,7 @@ const makeIframeContent = (target) => {
     <div id="root"></div>
     \x3Cscript src="${iframeJsPath}" type="module">\x3C/script>
   </body>
-</html>;
+</html>`;
 };
 
 let singleTonIframe;
@@ -307,7 +307,7 @@ function createIframe(target) {
 
   singleTonIframe.srcdoc = makeIframeContent(target);
   singleTonIframe.style.width = "100%";
-  singleTonIframe.style.minHeight = "600px";  // Start with a larger height
+  singleTonIframe.style.minHeight = "600px";  
   singleTonIframe.style.height = "auto";      
   singleTonIframe.style.border = "0";
   singleTonIframe.style.overflow = "visible"; 
@@ -403,7 +403,9 @@ window.CUSDIS.initial = initial;
 initial();
 
 
-</script>
+</script>`
+
+
 
 
 
