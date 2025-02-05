@@ -1,4 +1,5 @@
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
+
 
 exports.handler = async () => {
     const FORM_NAME = "comment-form"; // Your Netlify form name

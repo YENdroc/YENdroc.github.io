@@ -99,46 +99,5 @@
 <link rel="stylesheet" href='{{ "css/toc.css" | absURL }}' />
 
 
-<form name="comment-form" method="POST" data-netlify="true" id="commentForm">
-  <p>
-      <label>Name: <input type="text" name="name" required></label>
-  </p>
-  <p>
-      <label>Email: <input type="email" name="email" required></label>
-  </p>
-  <p>
-      <label>Comment: <textarea name="comment" required></textarea></label>
-  </p>
-  <p>
-      <button type="submit">Submit Comment</button>
-  </p>
-</form>
 
-<h2>Comments:</h2>
-<div id="comments-container">
-  <p>Loading comments...</p>
-</div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", async function () {
-      const commentsContainer = document.getElementById("comments-container");
-  
-      try {
-          let response = await fetch("/.netlify/functions/fetch-comments");
-          let comments = await response.json();
-  
-          if (comments.length === 0) {
-              commentsContainer.innerHTML = "<p>No comments yet.</p>";
-              return;
-          }
-  
-          commentsContainer.innerHTML = comments
-              .map(comment => `<p><strong>${comment.data.name}:</strong> ${comment.data.comment}</p>`)
-              .join("");
-      } catch (error) {
-          commentsContainer.innerHTML = "<p>Error loading comments.</p>";
-          console.error(error);
-      }
-  });
-  </script>
   
