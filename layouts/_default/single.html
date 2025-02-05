@@ -15,9 +15,10 @@
     data-page-title="{{ .Title }}"
   ></div>
 
-
   
-`<script>
+  
+
+<script>
   window.CUSDIS = {};
 
 const makeIframeContent = (target) => {
@@ -103,7 +104,7 @@ const makeIframeContent = (target) => {
   </head>
   <body>
     <div id="root"></div>
-    <script src="${iframeJsPath}" type="module"></script>
+    <script src="${iframeJsPath}" type="module"><\/script>
   </body>
 </html>` 
 ;
@@ -215,7 +216,7 @@ window.CUSDIS.initial = initial;
 initial();
 
 
-</script>`
+</script>
 
 
 <!-- <script async defer src="https://cusdis.com/js/cusdis.es.js"></script> -->

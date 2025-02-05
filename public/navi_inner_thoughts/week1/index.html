@@ -207,9 +207,10 @@
     data-page-title="Week 1 in SoPHL"
   ></div>
 
-
   
-`<script>
+  
+
+<script>
   window.CUSDIS = {};
 
 const makeIframeContent = (target) => {
@@ -220,7 +221,7 @@ const makeIframeContent = (target) => {
   return `<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="${cssPath}">
+    <link rel="stylesheet" href="${cssPath}!">
     <base target="_parent" />
     \x3Cscript>
       window.CUSDIS_LOCALE = ${JSON.stringify(window.CUSDIS_LOCALE)};
@@ -295,7 +296,7 @@ const makeIframeContent = (target) => {
   </head>
   <body>
     <div id="root"></div>
-    \x3Cscript src="${iframeJsPath}" type="module">\x3C/script>
+    \x3Cscript src="${iframeJsPath}" type="module"><\/script>
   </body>
 </html>` 
 ;
@@ -407,7 +408,7 @@ window.CUSDIS.initial = initial;
 initial();
 
 
-</script>`
+</script>
 
 
 
