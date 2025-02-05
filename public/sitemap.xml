@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:45285/</loc>
+    <loc>https://navi-nowu.netlify.app/</loc>
     <lastmod>2025-02-02T12:53:39-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:45285/navi_inner_thoughts/</loc>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/</loc>
     <lastmod>2025-02-02T11:21:20-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:45285/navi_inner_thoughts/week2/</loc>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/week2/</loc>
     <lastmod>2025-02-02T11:21:20-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:45285/major_projects/</loc>
+    <loc>https://navi-nowu.netlify.app/major_projects/</loc>
     <lastmod>2025-02-02T12:53:39-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:45285/navi_inner_thoughts/week1/</loc>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/week1/</loc>
     <lastmod>2025-02-02T11:21:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:45285/categories/</loc>
+    <loc>https://navi-nowu.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:45285/tags/</loc>
+    <loc>https://navi-nowu.netlify.app/tags/</loc>
   </url>
 </urlset>

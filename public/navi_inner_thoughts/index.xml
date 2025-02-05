@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Navi_inner_thoughts on Navi Nowu&#39;s Portfolio</title>
-    <link>http://localhost:45285/navi_inner_thoughts/</link>
+    <link>https://navi-nowu.netlify.app/navi_inner_thoughts/</link>
     <description>Recent content in Navi_inner_thoughts on Navi Nowu&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Feb 2025 11:21:20 -0500</lastBuildDate>
-    <atom:link href="http://localhost:45285/navi_inner_thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://navi-nowu.netlify.app/navi_inner_thoughts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 2 in SoPHL: Life in YGG</title>
-      <link>http://localhost:45285/navi_inner_thoughts/week2/</link>
+      <link>https://navi-nowu.netlify.app/navi_inner_thoughts/week2/</link>
       <pubDate>Fri, 31 Jan 2025 12:10:20 -0500</pubDate>
-      <guid>http://localhost:45285/navi_inner_thoughts/week2/</guid>
+      <guid>https://navi-nowu.netlify.app/navi_inner_thoughts/week2/</guid>
       <description>Week 2 Reflection</description>
     </item>
     <item>
       <title>Week 1 in SoPHL</title>
-      <link>http://localhost:45285/navi_inner_thoughts/week1/</link>
+      <link>https://navi-nowu.netlify.app/navi_inner_thoughts/week1/</link>
       <pubDate>Wed, 29 Jan 2025 21:10:20 -0500</pubDate>
-      <guid>http://localhost:45285/navi_inner_thoughts/week1/</guid>
+      <guid>https://navi-nowu.netlify.app/navi_inner_thoughts/week1/</guid>
       <description>Week 1 Reflection</description>
     </item>
   </channel>
