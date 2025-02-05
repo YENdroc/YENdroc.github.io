@@ -1,21 +1,4 @@
-{{ define "content" }}
-<div class="application-main">
-  {{ partial "post.html" .}}
-  {{ partial "gitalk.html" . }}
-</div>
-
-<!-- INIT THE Cusdis comment form -->
-  <div id="cusdis_thread"
-    data-host="https://cusdis.com"
-    data-app-id="9e2dde1b-b927-4b9c-ad46-bba861588964"
-    data-page-id="{{ .File.UniqueID }}" data-page-url="{{ .Permalink }}"
-    data-page-title="{{ .Title }}"
-  ></div>
-
-
-  
-<script>
-  window.CUSDIS = {};
+window.CUSDIS = {};
 
 const makeIframeContent = (target) => {
   const host = target.dataset.host || "https://cusdis.com";
@@ -209,9 +192,3 @@ function initial() {
 
 window.CUSDIS.initial = initial;
 initial();
-
-
-</script>
-
-
-{{ end }}
