@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Major_projects on Navi Nowu&#39;s Portfolio</title>
-    <link>http://localhost:1313/major_projects/</link>
+    <link>https://navi-nowu.netlify.app/major_projects/</link>
     <description>Recent content in Major_projects on Navi Nowu&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/major_projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://navi-nowu.netlify.app/major_projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
