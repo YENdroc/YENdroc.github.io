@@ -16,6 +16,8 @@
   
   
 
+
+
 <script>
   window.CUSDIS = {};
 
@@ -117,12 +119,13 @@ function createIframe(target) {
   }
 
   singleTonIframe.srcdoc = makeIframeContent(target);
-  singleTonIframe.style.width = "100%";
-  singleTonIframe.style.minHeight = "600px";  // Start with a larger height
-  singleTonIframe.style.height = "auto";      // Auto-expand
+  singleTonIframe.style.width = "100vw"; // Full page width
+  singleTonIframe.style.minHeight = "100vh"; // Minimum full-page height
+  singleTonIframe.style.height = "auto"; // Allow auto-expansion
   singleTonIframe.style.border = "0";
-  singleTonIframe.style.overflow = "visible"; // Allow full content display
-  singleTonIframe.scrolling = "no"; 
+  singleTonIframe.style.overflow = "visible"; // Ensure full content display
+  singleTonIframe.scrolling = "yes"; // Allow scrolling for very long comments
+
   return singleTonIframe;
 }
 

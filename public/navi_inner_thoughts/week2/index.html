@@ -212,6 +212,8 @@
   
   
 
+
+
 <script>
   window.CUSDIS = {};
 
@@ -313,12 +315,13 @@ function createIframe(target) {
   }
 
   singleTonIframe.srcdoc = makeIframeContent(target);
-  singleTonIframe.style.width = "100%";
-  singleTonIframe.style.minHeight = "600px";  
-  singleTonIframe.style.height = "auto";      
+  singleTonIframe.style.width = "100vw"; 
+  singleTonIframe.style.minHeight = "100vh"; 
+  singleTonIframe.style.height = "auto"; 
   singleTonIframe.style.border = "0";
   singleTonIframe.style.overflow = "visible"; 
-  singleTonIframe.scrolling = "no"; 
+  singleTonIframe.scrolling = "yes"; 
+
   return singleTonIframe;
 }
 
