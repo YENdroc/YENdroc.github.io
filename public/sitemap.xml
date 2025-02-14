@@ -2,35 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://navi-nowu.netlify.app/</loc>
+    <lastmod>2025-02-14T14:12:16-05:00</lastmod>
+  </url><url>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/</loc>
+    <lastmod>2025-02-14T14:12:16-05:00</lastmod>
+  </url><url>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/week4/</loc>
     <lastmod>2025-02-14T14:03:20-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/navi_inner_thoughts/</loc>
-    <lastmod>2025-02-14T14:03:20-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/navi_inner_thoughts/week4/</loc>
-    <lastmod>2025-02-14T14:03:20-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/navi_inner_thoughts/week5/</loc>
-    <lastmod>2025-02-14T12:50:53-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/navi_inner_thoughts/week3/</loc>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/week3/</loc>
     <lastmod>2025-02-14T14:02:36-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/major_projects/</loc>
-    <lastmod>2025-02-14T13:01:18-05:00</lastmod>
+    <loc>https://navi-nowu.netlify.app/major_projects/</loc>
+    <lastmod>2025-02-14T14:12:08-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/major_projects/the_pp_writeup/</loc>
-    <lastmod>2025-02-14T13:01:18-05:00</lastmod>
+    <loc>https://navi-nowu.netlify.app/major_projects/the_pp_writeup/</loc>
+    <lastmod>2025-02-14T14:12:08-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/navi_inner_thoughts/week2/</loc>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/week2/</loc>
     <lastmod>2025-02-10T14:55:34-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/navi_inner_thoughts/week1/</loc>
+    <loc>https://navi-nowu.netlify.app/navi_inner_thoughts/week1/</loc>
     <lastmod>2025-02-10T14:55:34-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://navi-nowu.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://navi-nowu.netlify.app/tags/</loc>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Major_projects on Navi Nowu&#39;s Portfolio</title>
-    <link>http://localhost:1313/major_projects/</link>
+    <link>https://navi-nowu.netlify.app/major_projects/</link>
     <description>Recent content in Major_projects on Navi Nowu&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Feb 2025 13:01:18 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/major_projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Feb 2025 14:12:08 -0500</lastBuildDate>
+    <atom:link href="https://navi-nowu.netlify.app/major_projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Paper Problem Write Up</title>
-      <link>http://localhost:1313/major_projects/the_pp_writeup/</link>
+      <link>https://navi-nowu.netlify.app/major_projects/the_pp_writeup/</link>
       <pubDate>Mon, 10 Feb 2025 10:10:20 -0500</pubDate>
-      <guid>http://localhost:1313/major_projects/the_pp_writeup/</guid>
+      <guid>https://navi-nowu.netlify.app/major_projects/the_pp_writeup/</guid>
       <description></description>
     </item>
   </channel>

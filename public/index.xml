@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Navi Nowu&#39;s Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>https://navi-nowu.netlify.app/</link>
     <description>Recent content on Navi Nowu&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 14 Feb 2025 14:12:08 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://navi-nowu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 4 in SoPHL: Passing a Quality Planet</title>
-      <link>http://localhost:1313/navi_inner_thoughts/week4/</link>
+      <link>https://navi-nowu.netlify.app/navi_inner_thoughts/week4/</link>
       <pubDate>Wed, 12 Feb 2025 14:50:12 -0500</pubDate>
-      <guid>http://localhost:1313/navi_inner_thoughts/week4/</guid>
+      <guid>https://navi-nowu.netlify.app/navi_inner_thoughts/week4/</guid>
       <description></description>
     </item>
     <item>
       <title>Week 3 in SoPHL: Getting Settled Down</title>
-      <link>http://localhost:1313/navi_inner_thoughts/week3/</link>
+      <link>https://navi-nowu.netlify.app/navi_inner_thoughts/week3/</link>
       <pubDate>Wed, 12 Feb 2025 14:49:37 -0500</pubDate>
-      <guid>http://localhost:1313/navi_inner_thoughts/week3/</guid>
+      <guid>https://navi-nowu.netlify.app/navi_inner_thoughts/week3/</guid>
       <description></description>
     </item>
     <item>
       <title>The Paper Problem Write Up</title>
-      <link>http://localhost:1313/major_projects/the_pp_writeup/</link>
+      <link>https://navi-nowu.netlify.app/major_projects/the_pp_writeup/</link>
       <pubDate>Mon, 10 Feb 2025 10:10:20 -0500</pubDate>
-      <guid>http://localhost:1313/major_projects/the_pp_writeup/</guid>
+      <guid>https://navi-nowu.netlify.app/major_projects/the_pp_writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>Week 2 in SoPHL: Life in YGG</title>
-      <link>http://localhost:1313/navi_inner_thoughts/week2/</link>
+      <link>https://navi-nowu.netlify.app/navi_inner_thoughts/week2/</link>
       <pubDate>Fri, 31 Jan 2025 12:10:20 -0500</pubDate>
-      <guid>http://localhost:1313/navi_inner_thoughts/week2/</guid>
+      <guid>https://navi-nowu.netlify.app/navi_inner_thoughts/week2/</guid>
       <description>Week 2 Reflection</description>
     </item>
     <item>
       <title>Week 1 in SoPHL</title>
-      <link>http://localhost:1313/navi_inner_thoughts/week1/</link>
+      <link>https://navi-nowu.netlify.app/navi_inner_thoughts/week1/</link>
       <pubDate>Wed, 29 Jan 2025 21:10:20 -0500</pubDate>
-      <guid>http://localhost:1313/navi_inner_thoughts/week1/</guid>
+      <guid>https://navi-nowu.netlify.app/navi_inner_thoughts/week1/</guid>
       <description>Week 1 Reflection</description>
     </item>
   </channel>
