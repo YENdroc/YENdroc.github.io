@@ -1,4 +1,4 @@
-baseURL = "https://navi-nowu.netlify.app/"
+baseURL = "/"
 languageCode = "zh-cn"
 title = "Navi Nowu's Portfolio"
 #theme = "github-style"

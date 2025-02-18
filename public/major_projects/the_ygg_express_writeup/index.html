@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='//localhost:1313/css/light.css' />
     <link rel="stylesheet" href='//localhost:1313/css/dark.css' />
     <link rel="stylesheet" href='//localhost:1313/css/syntax.css' />
-    <title>The Paper Problem - Navi Nowu&#39;s Portfolio</title>
+    <title>The Yggdrasil Express - Navi Nowu&#39;s Portfolio</title>
     
     <link rel="icon" type="image/x-icon" href='images/avatar.jpeg'>
     
@@ -25,7 +25,7 @@
 <meta name="keywords"
   content='Yggdrasil' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="//localhost:1313/major_projects/the_pp_writeup/" />
+<link rel="canonical" href="//localhost:1313/major_projects/the_ygg_express_writeup/" />
 
 
 
@@ -104,19 +104,19 @@
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="//localhost:1313/major_projects/the_pp_writeup/">The Paper Problem</a>
+                    <a href="//localhost:1313/major_projects/the_ygg_express_writeup/">The Yggdrasil Express</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Mon, 10 Feb 2025 10:10:20 -0500"
+                  Created <relative-time datetime="Sun, 16 Feb 2025 17:06:19 -0500"
                     class="no-wrap">
-                    Mon, 10 Feb 2025 10:10:20 -0500</relative-time>
+                    Sun, 16 Feb 2025 17:06:19 -0500</relative-time>
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Sun, 16 Feb 2025 17:05:38 -0500"
+                  Modified <relative-time datetime="Mon, 17 Feb 2025 19:47:42 -0500"
                     class="no-wrap">
-                    Sun, 16 Feb 2025 17:05:38 -0500</relative-time>
+                    Mon, 17 Feb 2025 19:47:42 -0500</relative-time>
                   
                 </div>
               </div>
@@ -146,7 +146,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      729 Words
+                      488 Words
                     
 
                   </div>
@@ -158,214 +158,143 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"> 
+                <article class="markdown-body entry-content container-lg">
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Paper Problem Write Up</title>
+    <title>The Yggdrasil Express Challenge</title>
+
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
     <style>
-        .container {
-            max-width: 900px;    
-        }
-        table,
-        th,
-        td {
-            border-collapse: collapse;
-        }
-        th,
-        td {
-            padding: 5px;
-            text-align: left;
+        table {
+            margin: 20px auto;
         }
     </style>
+
 </head>
 <body>
-    <div class="container">
-        <h2>Navi Nowu</h2>
 
-        <p>Mackenzie Henley, Joseph Keffer  </p>
-
-        <hr>
+    <h1 style= "text-align: center;">The Yggdrasil Express Challenge</h1>
     
 
-        <h2>Problem Setup</h2>
-        <p>Imagine a stack of standard letter paper (8.5 in × 11 in) that has the numbers 1, 2, 3, 4, …, 1,000,000,000 typed out on them in 12 pt font. Each piece of paper has the number followed by a space, the next number, another space, the next number, and so on, going from one to one billion.</p>
-
-        <h4>The start of the first page:</h4>
-
-        <pre>
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 
-35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 …
-        </pre>
-
-        <p>Every time a page is filled up, it is added to the stack of papers. At the end of this process,</p>
-        <p><strong>How tall is the stack of papers?</strong></p>
-
-        <hr>
-
-        <h2>Diagram the Problem</h2>
-        
-        <table>
+    <h3 style="text-align: left;"> Total Possible Routes: </h3>
+    <h5 style="text-align: left;">There are 24 possible orders. For the sake of memory we will refer to each package as r, g, y, and b for the red, green, yellow and blue box.  </h5>
+   
+    
+    <table>
+        <tbody>
             <tr>
-                <th>Knowns/Givens</th>
-                <th>Unknowns/Need to Know</th>
-                <th>Resources/Tools</th>
+                <td>rgyb</td><td>rgby</td><td>rygb</td><td>rybg</td><td>rbyg</td><td>rbgy</td>
             </tr>
             <tr>
-                <th rowspan="2">
-                    - The forat is: (number)(space)(number)<br>
-                    - The page size is 8.5 x 11 (in)<br>
-                    - Single page<br>
-                </th>
-                <th rowspan="2">
-                    - How many characters per line<br>
-                    - How many lines per page<br>
-                    - How many characters fit per line<br>
-                    - What is the font of the example numbers<br>  
-                    <br>
-                </th>
-                <th rowspan="2">
-                    - 500 sheets of paper<br>
-                    - Paper<br>
-                    - Calculators<br>
-                    <br>
-                </th>
-
-            </tr>
-          
-        </table>
-
-
-        <h2>Solution Strategy Map</h2>
-        <p>Break the problem down into smaller chunks that can be put together to get an estimate. Provide a picture of some kind to help illustrate your solution strategy.</p>
-        <svg width="10000" height="400">
-            <!-- Step 1 -->
-            <rect x="150" y="20" width="160" height="50" fill="lightblue" stroke="black"/>
-            <text x="160" y="50" font-size="16">Define the Problem</text>
-        
-            <!-- Arrow -->
-            <line x1="250" y1="70" x2="250" y2="130" stroke="black" stroke-width="2"/>
-            
-        
-            <!-- Step 2 -->
-            <rect x="150" y="130" width="360" height="50" fill="lightgreen" stroke="black"/>
-            <text x="160" y="160" font-size="16">Analyze the example number set given on pg.1. </text>
-        
-            <!-- Arrow -->
-            <line x1="250" y1="180" x2="250" y2="240" stroke="black" stroke-width="2"/>
-            
-
-            <line x1="250" y1="180" x2="650" y2="242" stroke="black" stroke-width="1.6"/>
-            
-        
-            <!-- Step 3 -->
-            <rect x="150" y="240" width="270" height="50" fill="lightcoral" stroke="black"/>
-            <text x="160" y="270" font-size="16">Quantify the unknown parameters.</text>
-
-            <rect x="490" y="240" width="370" height="50" fill="lightcoral" stroke="black"/>
-            <text x="500" y="270" font-size="16">Develop a relationship between the parameters.</text>
-        
-            <!-- Arrow -->
-            <line x1="250" y1="290" x2="250" y2="350" stroke="black" stroke-width="2"/>
-            <line x1="550" y1="290" x2="250" y2="350" stroke="black" stroke-width="1.6"/>
-        
-            <!-- Step 4 -->
-            <rect x="150" y="350" width="520" height="50" fill="lightgray" stroke="black"/>
-            <text x="160" y="380" font-size="16">Estimate a Height based on the geometrical relation we came up with.</text>
-        </svg>
-        <hr>
-
-        <h2>List of Assumptions Made with Justification</h2>
-        <ul>
-            <li>The page has a 1 in margin</li>
-            <li>The space and line spacing are the same as the example set.(As seen on the printed prompt sheet.)</li>
-            <li> Same font on each page (As seen on the printed prompt sheet.)</li>
-            <li> The space between the top of the first row and the bottom of the third row is .5 in</li>
-            <li> 50 lines per page</li>
-        </ul>
-        <hr>
-
-
-        <h2>Solution</h2>
-        <p>
-            <ul>
-                <li>Number per Line = 85 </li>
-                <li>Lines per Page = 50</li>
-                <li>Number per Page = 85 * 50 = 4250</li>
-                <li> Pages = 1billion / 4250</li>
-                <li> Page Thickness = 0.004 in = 0.0001016 m </li>
-                <li> Stack Height = Pages * 0.0001016 m = 23.9 m </li>
-            </ul>
-        </p>
-        
-        <hr>
-
-        <h2>Sources of Error</h2>
-        <p>Think of the sources of error in your estimate and describe them here.</p>
-        <ul>
-            <li>The varying white space at the end of lines, dues to a number (say 1500) not fitting on a line</li>
-            <li>Some number are wider than others, like 0 and 1, this may cause cartain lines to not fit as many characters as physically possible</li>
-            <li> The thickness of each page may vary, so I said  σ = 0.1mm</li>
-        </ul>
-        <hr>
-
-
-        <h2>Reflection Questions</h2>
-        <ol>
-            <li>What was the most challenging part of solving this problem?</li>
-            - The hardest part was trying to consider everyones' idea as much as mines. At first I wanted to purley go with what I imagined, but after consider their solution I came to like their solution and plan more than my own's.  
-            <li>Did the 1-minute solution explanation with a partner and then grouping up with other classmates help you?</li>
-            - It help we realize what was more important and what was less important in my solution plan.
-            <ul>
-                <li>What part of this process was useful for you, and how did it help?</li>
-                - The group discussion was the most useful to me. It simply helped me realize what I may have been lacking in my solution plan. 
-            </ul>
-            <li>Talk about how you think you did with collaboration.</li>
-            <ul>
-                <li>What role did you take in your group?</li>
-                - I believe I took the role of being a person to bounce ideas off of. 
-                <li>Was the workload and idea generation evenly distributed?</li>
-                - The idea generation was evenly distributed, but piecing them together was mostly the work of another group member. 
-                <li>Did you listen to your groupmates?</li>
-                - I did indeed listen to my groupmates. 
-            </ul>
-        </ol>
-
-        <h2>Assign Yourself Points</h2>
-        <table>
-            <tr>
-                <th>Category</th>
-                <th>Points (Max)</th>
-                <th>Justification (if needed)</th>
+                <td>gryb</td><td>grby</td><td>gyrb</td><td>gybr</td><td>gbry</td><td>gbyr</td>
             </tr>
             <tr>
-                <td><strong>Problem Solving</strong></td>
-                <td>12/15</td>
-                <td></td>
+                <td>yrgb</td><td>yrbg</td><td>ygbr</td><td>ygrb</td><td>ybrg</td><td>ybrg</td>
             </tr>
             <tr>
-                <td><strong>Critical Thinking</strong></td>
-                <td>10/10</td>
-                <td></td>
+                <td>brgy</td><td>bryg</td><td>bgry</td><td>bgyr</td><td>byrg</td><td>bygr</td>
             </tr>
-            <tr>
-                <td><strong>Self Collaboration</strong></td>
-                <td>10/10</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><strong>Team Collaboration</strong></td>
-                <td>5/15</td>
-                <td> My team and I (on the day the Paper Problem was orginially given) decided to split the 15 points evenly amongst the 3 of us. </td>
-            </tr>
+        </tbody>
+    </table>
 
-        </table>
+    <hr>
+
+    <h3 style="text-align: left;"> My 2 Considerable Routes: </h3>
+    <h5 style="text-align: left;"> The first route I choose is gryb, the reason I choose this route is because it visually looks the shortest. 
+        The second route I choose is byrg, the reason I choose this route is because it visually looks the seconds shortest.   </h5>
+
+
+    <ul>
+
+
+        <li> 
+            <p> For the first route:</p>
+            <ol>
+                <li>Starting at headquarters</li>
+                <li>Accelerate to (2.0 km, 10&deg;)</li>
+                <li>Accelerate to (2.0 km, 80&deg;)</li>
+                <li>Turned around and Accelerate to (2.0 km, 60&deg;)</li>
+                <li>Elevator to (2.5 km, 60&deg;)</li>
+                <li>Accelerate to (2.5 km, 95&deg;)</li>
+                <li>Accelerate to (2.5 km, 120&deg;)</li>
+                <li>Elevator to (1.5 km, 120&deg;)</li>
+                <li>Accelerate to (1.5 km, 190&deg;)</li>
+                <li>Accelerate to (1.5 km, 121&deg;)</li>
+            </ol> 
+        </li>
 
         
-    </div>
+
+        <li>
+            <p> For the second route:</p>
+            <ol>
+                <li>Starting at headquarters</li>
+                <li>Accelerate to (2.0 km, 240&deg;)</li>
+                <li>Elevator to (1.5 km, 240&deg;)</li>
+                <li>Accelerate to (1.5 km, 190&deg;)</li>
+                <li>Accelerate to (1.5 km, 120&deg;)</li>
+                <li>Elevator to (2.5 km, 120&deg;)</li>
+                <li>Accelerate to (2.5 km, 95&deg;)</li>
+                <li>Accelerate back to (2.5 km, 120&deg;)</li>
+                <li>Elevator to (2.0 km, 120&deg;)</li>
+                <li>Accelerate to (2.0 km, 80&deg;)</li>
+                <li>Accelerate to (2.0 km, 10&deg;)</li>
+                <li>Accelerate to (2.0 km, 0&deg;)</li>
+                <li>Elevator to (1.5 km, 0&deg;)</li>
+                <li>Accelerate to (1.5 km, 121&deg;)</li>
+            </ol>
+        </li>
+    </ul>
+
+<hr>
+
+<h3 style="text-align: left;"> Solution Map: </h3>
+
+<div class="mermaid">
+    graph TD;
+        A[Form a route path] --> B[Determine the distance between each action. 
+        Using the distance formula in polar coordinates. 
+        ];
+        A --> C[Find the equations of motion in polar coordinates]
+        B --> D[Add up the sum and find the shortest path.]
+        C --> E["Using the given parameters (a<sub>E</sub>, v<sub>max,E</sub>,a<sub>B</sub>, and v<sub>max,B</sub> ) find 
+        the time it take to get to each point."]
+
+</div>
+
+<hr>
+
+<h3 style="text-align: left;"> Reflection: </h3>
+
+<p> 
+    A big part of this challenge problem that I had trouble with was determining what would be considered the shortest path. Using the two solution paths I came 
+    up with in the solution map above, I mainly thought about routes that I believed minimized time and distance. There is slightly suspicion that I may be thinking 
+    about the entire thing wrong. Maybe by finding the shortest distance from the distance formula that path may be the one that minimizes times, and my solution map 
+    just restates the same information twice but given in two different forms.
+</p>
+
+<p> 
+    There is no extensive logic behind the two path i choose. For the first route, I started by going to the package that I believed minimized my first step, from there I choose the package that
+    visually looks the closest. For the second route I more or less had the same logic but I choose to start with the second closet first step and attempt minimize
+    the route from yellow to red to green.
+</p>
+
+<p> 
+    Before any calculations is done I believe that the first route is the shortest path and fastest path route. I say this because it has less steps compared to the
+    second route. 
+</p>
+
+
 </body>
 </html></article>
               </div>
@@ -387,8 +316,8 @@
   <div id="cusdis_thread"
     data-host="https://cusdis.com"
     data-app-id="9e2dde1b-b927-4b9c-ad46-bba861588964"
-    data-page-id="2c099d446d1a61976e63070f9a91cbe5" data-page-url="//localhost:1313/major_projects/the_pp_writeup/"
-    data-page-title="The Paper Problem"
+    data-page-id="8d01018f16c80646dbc38c6916861f8f" data-page-url="//localhost:1313/major_projects/the_ygg_express_writeup/"
+    data-page-title="The Yggdrasil Express"
   ></div>
 
   

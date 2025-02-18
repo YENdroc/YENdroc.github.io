@@ -4,7 +4,7 @@ date = 2025-01-31T12:10:20-05:00
 author = ""
 keywords = ["", ""]
 cover = ""
-summary = "Week 2 Reflection"
+summary = " "
 draft = false
 +++
 

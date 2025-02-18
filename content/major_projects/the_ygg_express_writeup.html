@@ -1,0 +1,145 @@
+---
+title: "The Yggdrasil Express"
+summary: " "
+date: 2025-02-16T17:06:19-05:00
+uid: "d6cd873a4cf90c17c1ec6c25f4d9096a" 
+---
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Yggdrasil Express Challenge</title>
+
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
+    <style>
+        table {
+            margin: 20px auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1 style= "text-align: center;">The Yggdrasil Express Challenge</h1>
+    
+
+    <h3 style="text-align: left;"> Total Possible Routes: </h3>
+    <h5 style="text-align: left;">There are 24 possible orders. For the sake of memory we will refer to each package as r, g, y, and b for the red, green, yellow and blue box.  </h5>
+   
+    
+    <table>
+        <tbody>
+            <tr>
+                <td>rgyb</td><td>rgby</td><td>rygb</td><td>rybg</td><td>rbyg</td><td>rbgy</td>
+            </tr>
+            <tr>
+                <td>gryb</td><td>grby</td><td>gyrb</td><td>gybr</td><td>gbry</td><td>gbyr</td>
+            </tr>
+            <tr>
+                <td>yrgb</td><td>yrbg</td><td>ygbr</td><td>ygrb</td><td>ybrg</td><td>ybrg</td>
+            </tr>
+            <tr>
+                <td>brgy</td><td>bryg</td><td>bgry</td><td>bgyr</td><td>byrg</td><td>bygr</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h3 style="text-align: left;"> My 2 Considerable Routes: </h3>
+    <h5 style="text-align: left;"> The first route I choose is gryb, the reason I choose this route is because it visually looks the shortest. 
+        The second route I choose is byrg, the reason I choose this route is because it visually looks the seconds shortest.   </h5>
+
+
+    <ul>
+
+
+        <li> 
+            <p> For the first route:</p>
+            <ol>
+                <li>Starting at headquarters</li>
+                <li>Accelerate to (2.0 km, 10&deg;)</li>
+                <li>Accelerate to (2.0 km, 80&deg;)</li>
+                <li>Turned around and Accelerate to (2.0 km, 60&deg;)</li>
+                <li>Elevator to (2.5 km, 60&deg;)</li>
+                <li>Accelerate to (2.5 km, 95&deg;)</li>
+                <li>Accelerate to (2.5 km, 120&deg;)</li>
+                <li>Elevator to (1.5 km, 120&deg;)</li>
+                <li>Accelerate to (1.5 km, 190&deg;)</li>
+                <li>Accelerate to (1.5 km, 121&deg;)</li>
+            </ol> 
+        </li>
+
+        
+
+        <li>
+            <p> For the second route:</p>
+            <ol>
+                <li>Starting at headquarters</li>
+                <li>Accelerate to (2.0 km, 240&deg;)</li>
+                <li>Elevator to (1.5 km, 240&deg;)</li>
+                <li>Accelerate to (1.5 km, 190&deg;)</li>
+                <li>Accelerate to (1.5 km, 120&deg;)</li>
+                <li>Elevator to (2.5 km, 120&deg;)</li>
+                <li>Accelerate to (2.5 km, 95&deg;)</li>
+                <li>Accelerate back to (2.5 km, 120&deg;)</li>
+                <li>Elevator to (2.0 km, 120&deg;)</li>
+                <li>Accelerate to (2.0 km, 80&deg;)</li>
+                <li>Accelerate to (2.0 km, 10&deg;)</li>
+                <li>Accelerate to (2.0 km, 0&deg;)</li>
+                <li>Elevator to (1.5 km, 0&deg;)</li>
+                <li>Accelerate to (1.5 km, 121&deg;)</li>
+            </ol>
+        </li>
+    </ul>
+
+<hr>
+
+<h3 style="text-align: left;"> Solution Map: </h3>
+
+<div class="mermaid">
+    graph TD;
+        A[Form a route path] --> B[Determine the distance between each action. 
+        Using the distance formula in polar coordinates. 
+        ];
+        A --> C[Find the equations of motion in polar coordinates]
+        B --> D[Add up the sum and find the shortest path.]
+        C --> E["Using the given parameters (a<sub>E</sub>, v<sub>max,E</sub>,a<sub>B</sub>, and v<sub>max,B</sub> ) find 
+        the time it take to get to each point."]
+
+</div>
+
+<hr>
+
+<h3 style="text-align: left;"> Reflection: </h3>
+
+<p> 
+    A big part of this challenge problem that I had trouble with was determining what would be considered the shortest path. Using the two solution paths I came 
+    up with in the solution map above, I mainly thought about routes that I believed minimized time and distance. There is slightly suspicion that I may be thinking 
+    about the entire thing wrong. Maybe by finding the shortest distance from the distance formula that path may be the one that minimizes times, and my solution map 
+    just restates the same information twice but given in two different forms.
+</p>
+
+<p> 
+    There is no extensive logic behind the two path i choose. For the first route, I started by going to the package that I believed minimized my first step, from there I choose the package that
+    visually looks the closest. For the second route I more or less had the same logic but I choose to start with the second closet first step and attempt minimize
+    the route from yellow to red to green.
+</p>
+
+<p> 
+    Before any calculations is done I believe that the first route is the shortest path and fastest path route. I say this because it has less steps compared to the
+    second route. 
+</p>
+
+
+</body>
+</html>
