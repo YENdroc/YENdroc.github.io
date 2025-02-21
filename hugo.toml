@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://yendroc.github.io/"
 languageCode = "zh-cn"
 title = "Navi Nowu's Portfolio"
 #theme = "github-style"
@@ -20,7 +20,7 @@ pygmentsUseClasses = true
   # rss = true
   lastmod = true
   favicon = "images/avatar.jpeg"
-  avatar = "images/avatar.jpeg"
+  avatar = "../images/avatar.jpeg"
   #headerIcon = ""
   location = "The Yggdrasil Space Explorer"
   #userStatusEmoji = "😀"
